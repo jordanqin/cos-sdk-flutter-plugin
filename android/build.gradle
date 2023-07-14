@@ -37,4 +37,5 @@ android {
 dependencies {
     implementation 'com.qcloud.cos:qcloud-foundation:1.5.55'
     implementation 'net.sourceforge.streamsupport:streamsupport-minifuture:1.7.4'
+    implementation(name: 'cos-android-nobeacon-5.9.13', ext: 'aar')
 }
